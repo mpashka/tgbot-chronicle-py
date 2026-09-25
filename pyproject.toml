@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tgbot-chronicle-py"
+version = "0.1.0"
+description = "Telegram bot UI as a page and a chronicle: one message edited in place, always the last one in chat"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Source = "https://github.com/mpashka/tgbot-chronicle-py"
+
+[tool.setuptools.packages.find]
+where = ["src"]
